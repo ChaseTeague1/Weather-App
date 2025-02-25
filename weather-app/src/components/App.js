@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from "react";
+import WeatherList from "./WeatherList";
 
 
 
@@ -28,6 +29,7 @@ function App() {
   return (
     <div className="App">
       <h1>APP.js</h1>
+      <WeatherList data={weatherData}/>
     </div>
   );
 }
